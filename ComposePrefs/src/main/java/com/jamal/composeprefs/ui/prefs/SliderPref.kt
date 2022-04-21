@@ -116,7 +116,8 @@ fun SliderPref(
 
             if (showValue) {
                 Text(
-                    text = roundToDP(value, 2).toString(),
+                    // text = roundToDP(value, 2).toString(),
+                    text = value.toInt().toString(),
                     color = textColor,
                     modifier = Modifier
                         .weight(0.5f)
